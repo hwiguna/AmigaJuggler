@@ -2,7 +2,9 @@
 
 A single-page, real-time WebGL2 ray tracer that recreates Eric Graham's 1986 Amiga **Juggler** demo, with an orbit camera.
 
-Open `juggler.html` in any modern browser. No build step or dependencies.
+[![The Juggler running in a browser — click to open it live](screenshot.png)](https://hwiguna.github.io/AmigaJuggler/juggler.html)
+
+**[▶ Run it live in your browser](https://hwiguna.github.io/AmigaJuggler/juggler.html)**, or open `juggler.html` locally in any modern browser. No build step or dependencies.
 
 - **Scene:** the original 79-sphere robot, lamp, camera, sky and checkerboard from Graham's `robot.dat`, shaded with the same rules as his raytracer (`pixbrite`, `glint`, `mirror`, `gingham`).
 - **Animation:** a 3-ball shower timed from the original 24-frame (0.8 s) loop.
